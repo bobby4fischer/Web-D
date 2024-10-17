@@ -1,6 +1,6 @@
-My Web Development Journey 🌐
-👋 About Me
-I’ve just started my journey into web development! This repository will serve as a collection of my learning projects, experiments, and practice exercises. I'm excited to explore the world of HTML, CSS, JavaScript, and more.
+My Web Development Journey 🌐  
+👋 About Me  
+I’ve just started my journey into web development! This repository will serve as a collection of my learning projects, experiments, and practice exercises. I'm excited to explore the world of HTML, CSS, JavaScript, and more.  
 
 📂 Project Overview  
 This project includes:  
@@ -34,9 +34,9 @@ This project includes:
    •cd your-repo-name  
 3) Open the index.html file in your browser.  
 
-💡 Feedback and Suggestions
-•I'm always open to learning! If you have any feedback or suggestions, feel free to create an issue or reach out.
+💡 Feedback and Suggestions  
+•I'm always open to learning! If you have any feedback or suggestions, feel free to create an issue or reach out.  
 
-📧 Connect with Me
-•GitHub: bobby4fischer
-•Email: jscharak04@gmail.com
+📧 Connect with Me  
+•GitHub: bobby4fischer  
+•Email: jscharak04@gmail.com  
