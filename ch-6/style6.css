@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background: #f3f3f3;
+    width: 100%;
+    padding:12px 30px;
+}
+.link {
+    display: flex;
+    gap: 20px; /* Adds spacing between links */
+}
+.link a{ /*if only .link used all them gets combined :-( */
+    text-decoration: none; /*to prevent ____ under a tags*/
+    color: #000;
+    margin: 10px 15px; /* Horizontal spacing between links */
+    font-weight: bold;
+}
+.link a:hover {
+    color: #0077cc; /* Hover effect */
+}
+
+
+header{
+    padding: 3vw;
+    background: #e3e3e3;
+}
+
+
+section{
+    position : relative;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 80% 20%;
+    padding:30px;
+    width: 100%;
+    height: 100vh;
+    background: #c8ddea;
+    overflow:hidden;
+}
+/* .sec{
+    background: #dcc2c2;
+} */
+video {
+    border-radius: 20px;
+    grid-row:1/3;
+    grid-column: 2/3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video fills the area while maintaining aspect ratio */
+    transform: translate(-50%, -50%); /* Center the video */
+}
+audio{
+    grid-column: 1;
+    grid-row:2;
+    padding:10px;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+article{
+    border-radius: 10px;
+    padding:20px;
+    width:70%;
+    height: 70%;
+    background: rgb(54, 54, 54);
+    color: white;
+}
+
+
+aside{
+    padding:20px;
+    background: #fff;
+    position:fixed;
+    border-radius: 5px;
+    right:10px;
+    top:50%;
+    /* transform:trasnslate(0,-50%); */
+}
+
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px 0;
+}
