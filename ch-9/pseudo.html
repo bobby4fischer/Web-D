@@ -30,7 +30,8 @@
             /* left: 50%;  */
             transition: all linear 0.3s;
             z-index: -1;
-            transform: translate(-50%,-50%) scale(0);
+            transform: translate(-50%,-50%) scale(0); /* this scale sets whats the default size of the circle*/
+            /* this translate maintains the position of after in its own container(i.e. the container of after )*/
         }
         button:hover::after{
            /* transform: scale(3); */
